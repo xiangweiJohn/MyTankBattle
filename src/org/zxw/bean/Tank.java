@@ -13,8 +13,7 @@ import org.zxw.game.utils.CollisionUtils;
 import org.zxw.game.utils.DrawUtils;
 import org.zxw.game.utils.SoundUtils;
 
-public class Tank extends Element implements Moveable,Blockable,Collapsible,
-											 Destroyable{
+public class Tank extends Element implements Moveable,Blockable,Collapsible,Destroyable{
 	
 	protected int speed = 32;
 	protected Direction direction = Direction.UP;
